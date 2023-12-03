@@ -134,11 +134,11 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Understanding Intergroup Bias <a class="social-icon" href="https://yuki-zang.github.io/" title="Project Page" style="font-size:20px"><i class="fa fa-link"></i></a> <a class="social-icon" href="/assets/files/DREU_Report.pdf" title="Project Report (Draft)" style="font-size:20px"><i class="fa fa-file-text"></i></a> </h3>
                             <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://jessyli.com">Junyi Jessy Li</a>; Mentor: <a style="text-decoration:none" href="https://venkatasg.net">Venkata S Govindarajan</a>; University of Texas at Austin</div>
-                            <p>In this project, we aim to understand the cues in social comments that tell which category - ingroup, outgroup, or third-party, a particular
-                               entity belongs to. We scrape more than 5 million Reddit comments from the NFL Football game threads and mask/highlight team name mentions.
-                               We then feed in the processed comments to gpt4 and set up the MTurk for human annotation. We are at the stage of analyzing results and improving the task design, 
-                               interpreting how contextual information affects the task performance. Meanwhile, we resort to co-reference resolution to match pronouns with team names (for more entities)
-                               and plan to train a model specialized at the task.
+                            <p>This project is a part of DREU. Specifically, I studied intergroup bias on social media.  
+                                Utilizing praw, I scraped seven million Reddit comments from the past two NFL game seasons. I then identified and masked all team names and their pronouns (through coreference resolution),
+                                scripted an Amazon Mechanical Turk interface for human annotation, and tested the task on GPT-4 using few-shot learning. Our findings highlight challenges in 
+                                intergroup classification by both humans and foundational language models. Given this, we examine linguistic cues like emotion and external contexts like real-time game 
+                                scores for group entity tagging. We also plan training task-specific language models for accurate intergroup tagging, drawing inspiration from NER and POS tagging. 
                             </p>
                             <p>Paper planned for NAACL, 2024</p>
                         </div>
@@ -147,7 +147,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Would I Lie to You <a class="social-icon" href="/assets/files/WouldILieToYoua.pdf" title="Project Report (Draft)" style="font-size:20px"><i class="fa fa-file-text"></i></a></h3>
-                            <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://amandastent.net">Amanda Stent</a>; Coworker: <a style="text-decoration:none" href="https://sites.google.com/view/tahiyachowdhury">Tahiya Chowdhury</a>; Colby College</div>
+                            <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://amandastent.net">Amanda Stent</a>; Collaborator: <a style="text-decoration:none" href="https://sites.google.com/view/tahiyachowdhury">Tahiya Chowdhury</a>; Colby College</div>
                             <p>We introduce a multimodal dataset containing multi-party deceptive and truthful conversation in a public environment during the 
                                 British TV show `Would I Lie to You', where participants compete in teams to guess truthful and deceptive statements of others. We curate the speech events from publicly available videos of the 
                                 show via speaker segmentation and speech recognition. Using verbal and non-verbal behaviors of the speakers through acoustic, linguistic, and visual features, we explored classification for deception 
