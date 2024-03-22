@@ -160,14 +160,14 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Would I Lie to You <a class="social-icon" href="/assets/files/WouldILieToYoua.pdf" title="Project Report (Draft)" style="font-size:20px"><i class="fa fa-file-text"></i></a></h3>
-                            <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://amandastent.net">Amanda Stent</a>; Collaborator: <a style="text-decoration:none" href="https://sites.google.com/view/tahiyachowdhury">Tahiya Chowdhury</a>; Colby College</div>
+                            <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://amandastent.net">Amanda Stent</a>; Colby College</div>
+                            <!-- Collaborator: <a style="text-decoration:none" href="https://sites.google.com/view/tahiyachowdhury">Tahiya Chowdhury</a>; -->
                             <p>In this project, I curated a multi-party, real-world dataset from the British TV show 'Would I Lie to You' for multimodal deception detection study.
                                 Using tools like diart, wav2vec, and Prodigy, I segmented, transcribed, and annotated target statements in the video. We then extracted multimodal features from the dataset, 
                                 encompassing acoustic cues such as prosody, linguistic features including N-grams and GloVe embeddings, as well as visual features from the DeepFace. 
-                                To demonstrate the effectiveness of the dataset, we first took an early-fusion approach and trained multiple machine/deep learning models. 
-                                For comparison purposes, we also explored Perceiver IO that leverages a later-fusion approach of multimodal data. Our best model of BLSTM trained on verbal-only 
-                                features achieved an impressive accuracy of 96%. Meanwhile, the early-fusion approach works better in our setting, and the additional visual features 
-                                fail to augment model performance. </p>
+                                To demonstrate the effectiveness of the dataset, we first concatenated multimodal features and trained multiple machine/deep learning models. 
+                                For comparison purposes, we also explored Perceiver IO that leverages a fusion approach of multimodal data. Our best model of BLSTM trained on verbal-only 
+                                features achieved an impressive accuracy of 96% while humans have about chance-level performance. </p>
                             <p>First-author paper under review at ACM Transactions on Audio Speech and Language Processing</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2022 - Dec. 2023</span></div>
