@@ -148,10 +148,10 @@
                             <!-- ; Mentor: <a style="text-decoration:none" href="https://venkatasg.net">Venkata S Govindarajan</a>; -->
                             <p>This project is a part of Distributed Research Experience for Undergraduates (DREU). 
                                 Specifically, I studied intergroup bias dynamics & discourse structure on social media. Utilizing praw, I scraped seven million Reddit comments 
-                                from the past two NFL game seasons. I then masked all team names as well as pronouns that correspond to them (through coreference resolution),
-                                scripted an Amazon Mechanical Turk interface for human classification of the group entity, and prompted GPT-4 for the same task. Furthermore, 
-                                I finetuned models for comment specificity prediction and leveraged topic modeling to understand the distribution of common topics windowed by 
-                                winning probability.
+                                from the past two National Football League game seasons. I then masked all team names as well as pronouns that correspond to team names (through coreference resolution),
+                                scripted an Amazon Mechanical Turk interface for human classification of the masked entity (as ingroup, outgroup, or third party), and prompted 
+                                GPT-4 for the same task via few shot learning. Furthermore, I finetuned models for comment specificity prediction and leveraged topic modeling to 
+                                understand the distribution of common topics windowed by winning probability.
                             </p>
                             <p>Paper in preparation for EMNLP, 2024</p>
                         </div>
