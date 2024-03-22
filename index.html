@@ -147,11 +147,11 @@
                             <div class="subheading mb-3">Advisor: <a style="text-decoration:none" href="https://jessyli.com">Junyi Jessy Li</a>; University of Texas at Austin</div>
                             <!-- ; Mentor: <a style="text-decoration:none" href="https://venkatasg.net">Venkata S Govindarajan</a>; -->
                             <p>This project is a part of Distributed Research Experience for Undergraduates (DREU). 
-                                Specifically, I studied intergroup bias dynamics & discourse structure on social media.  
-                                Utilizing praw, I scraped seven million Reddit comments from the past two NFL game seasons. I then identified and masked all team names and their pronouns (through coreference resolution),
-                                scripted an Amazon Mechanical Turk interface for human annotation, and tested the task on GPT-4 using few-shot learning. Our findings highlight challenges in 
-                                intergroup classification by both humans and foundational language models. Given this, we examine linguistic cues and target at training task-specific language models for accurate intergroup tagging, 
-                                drawing inspiration from NER and POS tagging. 
+                                Specifically, I studied intergroup bias dynamics & discourse structure on social media. Utilizing praw, I scraped seven million Reddit comments 
+                                from the past two NFL game seasons. I then masked all team names as well as pronouns that correspond to them (through coreference resolution),
+                                scripted an Amazon Mechanical Turk interface for human classification of the group entity, and prompted GPT-4 for the same task. Furthermore, 
+                                I finetuned models for comment specificity prediction and leveraged topic modeling to understand the distribution of common topics windowed by 
+                                winning probability.
                             </p>
                             <p>Paper in preparation for EMNLP, 2024</p>
                         </div>
